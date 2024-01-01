@@ -1,0 +1,89 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url("login page images/login bg.jpg") no-repeat, center, center, fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: #f6f6f6;
+}
+
+.container {
+    width: 50vh;
+    min-width: 320px;
+    padding: 16px 24px;
+    height: 60vh;
+    transition: 1s ease;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    margin: 8rem auto;
+    position: relative;
+}
+
+.container h2 {
+    font-size: 4rem;
+    margin: 3rem 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+    background-color: #ffff;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-right:1rem ;
+    text-align: center;
+    align-items: center;
+}
+
+.user {
+    background: #4942E4;
+    padding: 5px;
+    width: 2rem;
+}
+
+.Password-visibility {
+    width: 2rem;
+    padding: 1px;
+    border-radius: 50%;
+}
+.Password-visibility:hover{
+    background-color: #e3e3e3;
+    cursor: pointer;
+}
+
+.user-input {
+    border: 0;
+    outline: 0;
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;  
+}
+
+#submit-btn{
+    border: none;
+    outline: none;
+    color: #f6f6f6;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 0.7rem 0.5rem ;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #4942E4;
+    margin: 2rem 0;
+    font-weight: bold;
+    transition: ease 0.5s;
+}
+#submit-btn:hover {
+    background-color: #160dc1;
+    cursor: pointer;
+    box-shadow: 0 0 25px rgb(0,140,255);
+}
